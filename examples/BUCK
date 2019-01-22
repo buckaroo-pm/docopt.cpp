@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'naval-fate',
+  srcs = [
+    'naval_fate.cpp',
+  ],
+  deps = [
+    '//:docopt',
+  ],
+)
